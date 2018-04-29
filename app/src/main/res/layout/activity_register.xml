@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_run"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Run" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_nombres"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Nombres" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_apellidos"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Apellidos" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_email"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_pas"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Contraseña" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_nick"
+        app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Nickname" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     </LinearLayout>
+   </ScrollView>
+</LinearLayout>
